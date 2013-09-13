@@ -1,0 +1,682 @@
+/* ----------------------------------*/
+/* ---------->>> FONTS <<<-----------*/
+/* ----------------------------------*/
+
+@font-face {
+	font-family: WebSymbolsRegular;
+	src: url(websymbols/websymbols-regular-webfont.eot);
+	src: url(websymbols/websymbols-regular-webfont.eot?#iefix) format('embedded-opentype'),
+	     url(websymbols/websymbols-regular-webfont.woff) format('woff'),
+	     url(websymbols/websymbols-regular-webfont.ttf) format('truetype'),
+	     url(websymbols/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg');
+}
+
+.websymbols-icon {
+	font-family: WebSymbolsRegular, sans-serif;
+}
+
+/*!
+ *  Font Awesome 3.1.0
+ *  the iconic font designed for Bootstrap
+ *  -------------------------------------------------------
+ *  The full suite of pictographic icons, examples, and documentation
+ *  can be found at: http://fontawesome.io
+ *
+ *  License
+ *  -------------------------------------------------------
+ *  - The Font Awesome font is licensed under the SIL Open Font License v1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Font Awesome documentation licensed under CC BY 3.0 License -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+
+ *  Contact
+ *  -------------------------------------------------------
+ *  Email: dave@fontawesome.io
+ *  Twitter: http://twitter.com/fortaweso_me
+ *  Work: Lead Product Designer @ http://kyruus.com
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: FontAwesome;
+  src: url(fontawesome/fontawesome-webfont.eot);
+  src: url(fontawesome/fontawesome-webfont.eot?#iefix) format('eot'),
+       url(fontawesome/fontawesome-webfont.woff) format('woff'),
+	   url(fontawesome/fontawesome-webfont.ttf) format('truetype'),
+	   url(fontawesome/fontawesome-webfont.svg#FontAwesome) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ADDITIONAL CLASSES
+ * -------------------------- */
+[class^="fontawesome-icon-"],
+[class*=" fontawesome-icon-"] {
+  color: inherit;
+}
+/* FONT AWESOME CORE
+ * -------------------------- */
+[class^="fontawesome-icon-"],
+[class*=" fontawesome-icon-"] {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+}
+[class^="fontawesome-icon-"]:before,
+[class*=" fontawesome-icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+/* makes the font 33% larger relative to the icon container */
+.fontawesome-icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333333333em;
+}
+/* makes sure icons active on rollover in links */
+a [class^="fontawesome-icon-"],
+a [class*=" fontawesome-icon-"],
+a [class^="fontawesome-icon-"]:before,
+a [class*=" fontawesome-icon-"]:before {
+  display: inline;
+}
+/* increased font size for icon-large */
+[class^="fontawesome-icon-"].fontawesome-icon-fixed-width,
+[class*=" fontawesome-icon-"].fontawesome-icon-fixed-width {
+  display: inline-block;
+  width: 1.2857142857142858em;
+  text-align: center;
+}
+[class^="fontawesome-icon-"].fontawesome-icon-fixed-width.fontawesome-icon-large,
+[class*=" fontawesome-icon-"].fontawesome-icon-fixed-width.fontawesome-icon-large {
+  width: 1.5714285714285714em;
+}
+ul.fontawesome-icons-ul {
+  list-style-type: none;
+  text-indent: -0.7142857142857143em;
+  margin-left: 2.142857142857143em;
+}
+ul.fontawesome-icons-ul > li .fontawesome-icon-li {
+  width: 0.7142857142857143em;
+  display: inline-block;
+  text-align: center;
+}
+[class^="fontawesome-icon-"].fontawesome-hide,
+[class*=" fontawesome-icon-"].fontawesome-hide {
+  display: none;
+}
+.fontawesome-icon-muted {
+  color: #eeeeee;
+}
+.fontawesome-icon-light {
+  color: #ffffff;
+}
+.fontawesome-icon-dark {
+  color: #333333;
+}
+.fontawesome-icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.fontawesome-icon-2x {
+  font-size: 2em;
+}
+.fontawesome-icon-2x.fontawesome-icon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.fontawesome-icon-3x {
+  font-size: 3em;
+}
+.fontawesome-icon-3x.fontawesome-icon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.fontawesome-icon-4x {
+  font-size: 4em;
+}
+.fontawesome-icon-4x.fontawesome-icon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.fontawesome-icon-5x {
+  font-size: 5em;
+}
+.fontawesome-icon-5x.fontawesome-icon-border {
+  border-width: 5px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.fontawesome-pull-right {
+  float: right;
+}
+.fontawesome-pull-left {
+  float: left;
+}
+[class^="fontawesome-icon-"].fontawesome-pull-left,
+[class*=" fontawesome-icon-"].fontawesome-pull-left {
+  margin-right: .3em;
+}
+[class^="fontawesome-icon-"].fontawesome-pull-right,
+[class*=" fontawesome-icon-"].fontawesome-pull-right {
+  margin-left: .3em;
+}
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.fontawesome-icon-glass:before { content: "\f000"; }
+.fontawesome-icon-music:before { content: "\f001"; }
+.fontawesome-icon-search:before { content: "\f002"; }
+.fontawesome-icon-envelope:before { content: "\f003"; }
+.fontawesome-icon-heart:before { content: "\f004"; }
+.fontawesome-icon-star:before { content: "\f005"; }
+.fontawesome-icon-star-empty:before { content: "\f006"; }
+.fontawesome-icon-user:before { content: "\f007"; }
+.fontawesome-icon-film:before { content: "\f008"; }
+.fontawesome-icon-th-large:before { content: "\f009"; }
+.fontawesome-icon-th:before { content: "\f00a"; }
+.fontawesome-icon-th-list:before { content: "\f00b"; }
+.fontawesome-icon-ok:before { content: "\f00c"; }
+.fontawesome-icon-remove:before { content: "\f00d"; }
+.fontawesome-icon-zoom-in:before { content: "\f00e"; }
+.fontawesome-icon-zoom-out:before { content: "\f010"; }
+.fontawesome-icon-off:before { content: "\f011"; }
+.fontawesome-icon-signal:before { content: "\f012"; }
+.fontawesome-icon-cog:before { content: "\f013"; }
+.fontawesome-icon-trash:before { content: "\f014"; }
+.fontawesome-icon-home:before { content: "\f015"; }
+.fontawesome-icon-file:before { content: "\f016"; }
+.fontawesome-icon-time:before { content: "\f017"; }
+.fontawesome-icon-road:before { content: "\f018"; }
+.fontawesome-icon-download-alt:before { content: "\f019"; }
+.fontawesome-icon-download:before { content: "\f01a"; }
+.fontawesome-icon-upload:before { content: "\f01b"; }
+.fontawesome-icon-inbox:before { content: "\f01c"; }
+.fontawesome-icon-play-circle:before { content: "\f01d"; }
+.fontawesome-icon-repeat:before,
+.fontawesome-icon-rotate-right:before { content: "\f01e"; }
+/* F020 doesn't work in Safari. all shifted one down */
+.fontawesome-icon-refresh:before { content: "\f021"; }
+.fontawesome-icon-list-alt:before { content: "\f022"; }
+.fontawesome-icon-lock:before { content: "\f023"; }
+.fontawesome-icon-flag:before { content: "\f024"; }
+.fontawesome-icon-headphones:before { content: "\f025"; }
+.fontawesome-icon-volume-off:before { content: "\f026"; }
+.fontawesome-icon-volume-down:before { content: "\f027"; }
+.fontawesome-icon-volume-up:before { content: "\f028"; }
+.fontawesome-icon-qrcode:before { content: "\f029"; }
+.fontawesome-icon-barcode:before { content: "\f02a"; }
+.fontawesome-icon-tag:before { content: "\f02b"; }
+.fontawesome-icon-tags:before { content: "\f02c"; }
+.fontawesome-icon-book:before { content: "\f02d"; }
+.fontawesome-icon-bookmark:before { content: "\f02e"; }
+.fontawesome-icon-print:before { content: "\f02f"; }
+.fontawesome-icon-camera:before { content: "\f030"; }
+.fontawesome-icon-font:before { content: "\f031"; }
+.fontawesome-icon-bold:before { content: "\f032"; }
+.fontawesome-icon-italic:before { content: "\f033"; }
+.fontawesome-icon-text-height:before { content: "\f034"; }
+.fontawesome-icon-text-width:before { content: "\f035"; }
+.fontawesome-icon-align-left:before { content: "\f036"; }
+.fontawesome-icon-align-center:before { content: "\f037"; }
+.fontawesome-icon-align-right:before { content: "\f038"; }
+.fontawesome-icon-align-justify:before { content: "\f039"; }
+.fontawesome-icon-list:before { content: "\f03a"; }
+.fontawesome-icon-indent-left:before { content: "\f03b"; }
+.fontawesome-icon-indent-right:before { content: "\f03c"; }
+.fontawesome-icon-facetime-video:before { content: "\f03d"; }
+.fontawesome-icon-picture:before { content: "\f03e"; }
+.fontawesome-icon-pencil:before { content: "\f040"; }
+.fontawesome-icon-map-marker:before { content: "\f041"; }
+.fontawesome-icon-adjust:before { content: "\f042"; }
+.fontawesome-icon-tint:before { content: "\f043"; }
+.fontawesome-icon-edit:before { content: "\f044"; }
+.fontawesome-icon-share:before { content: "\f045"; }
+.fontawesome-icon-check:before { content: "\f046"; }
+.fontawesome-icon-move:before { content: "\f047"; }
+.fontawesome-icon-step-backward:before { content: "\f048"; }
+.fontawesome-icon-fast-backward:before { content: "\f049"; }
+.fontawesome-icon-backward:before { content: "\f04a"; }
+.fontawesome-icon-play:before { content: "\f04b"; }
+.fontawesome-icon-pause:before { content: "\f04c"; }
+.fontawesome-icon-stop:before { content: "\f04d"; }
+.fontawesome-icon-forward:before { content: "\f04e"; }
+.fontawesome-icon-fast-forward:before { content: "\f050"; }
+.fontawesome-icon-step-forward:before { content: "\f051"; }
+.fontawesome-icon-eject:before { content: "\f052"; }
+.fontawesome-icon-chevron-left:before { content: "\f053"; }
+.fontawesome-icon-chevron-right:before { content: "\f054"; }
+.fontawesome-icon-plus-sign:before { content: "\f055"; }
+.fontawesome-icon-minus-sign:before { content: "\f056"; }
+.fontawesome-icon-remove-sign:before { content: "\f057"; }
+.fontawesome-icon-ok-sign:before { content: "\f058"; }
+.fontawesome-icon-question-sign:before { content: "\f059"; }
+.fontawesome-icon-info-sign:before { content: "\f05a"; }
+.fontawesome-icon-screenshot:before { content: "\f05b"; }
+.fontawesome-icon-remove-circle:before { content: "\f05c"; }
+.fontawesome-icon-ok-circle:before { content: "\f05d"; }
+.fontawesome-icon-ban-circle:before { content: "\f05e"; }
+.fontawesome-icon-arrow-left:before { content: "\f060"; }
+.fontawesome-icon-arrow-right:before { content: "\f061"; }
+.fontawesome-icon-arrow-up:before { content: "\f062"; }
+.fontawesome-icon-arrow-down:before { content: "\f063"; }
+.fontawesome-icon-share-alt:before,
+.fontawesome-icon-mail-forward:before { content: "\f064"; }
+.fontawesome-icon-resize-full:before { content: "\f065"; }
+.fontawesome-icon-resize-small:before { content: "\f066"; }
+.fontawesome-icon-plus:before { content: "\f067"; }
+.fontawesome-icon-minus:before { content: "\f068"; }
+.fontawesome-icon-asterisk:before { content: "\f069"; }
+.fontawesome-icon-exclamation-sign:before { content: "\f06a"; }
+.fontawesome-icon-gift:before { content: "\f06b"; }
+.fontawesome-icon-leaf:before { content: "\f06c"; }
+.fontawesome-icon-fire:before { content: "\f06d"; }
+.fontawesome-icon-eye-open:before { content: "\f06e"; }
+.fontawesome-icon-eye-close:before { content: "\f070"; }
+.fontawesome-icon-warning-sign:before { content: "\f071"; }
+.fontawesome-icon-plane:before { content: "\f072"; }
+.fontawesome-icon-calendar:before { content: "\f073"; }
+.fontawesome-icon-random:before { content: "\f074"; }
+.fontawesome-icon-comment:before { content: "\f075"; }
+.fontawesome-icon-magnet:before { content: "\f076"; }
+.fontawesome-icon-chevron-up:before { content: "\f077"; }
+.fontawesome-icon-chevron-down:before { content: "\f078"; }
+.fontawesome-icon-retweet:before { content: "\f079"; }
+.fontawesome-icon-shopping-cart:before { content: "\f07a"; }
+.fontawesome-icon-folder-close:before { content: "\f07b"; }
+.fontawesome-icon-folder-open:before { content: "\f07c"; }
+.fontawesome-icon-resize-vertical:before { content: "\f07d"; }
+.fontawesome-icon-resize-horizontal:before { content: "\f07e"; }
+.fontawesome-icon-bar-chart:before { content: "\f080"; }
+.fontawesome-icon-twitter-sign:before { content: "\f081"; }
+.fontawesome-icon-facebook-sign:before { content: "\f082"; }
+.fontawesome-icon-camera-retro:before { content: "\f083"; }
+.fontawesome-icon-key:before { content: "\f084"; }
+.fontawesome-icon-cogs:before { content: "\f085"; }
+.fontawesome-icon-comments:before { content: "\f086"; }
+.fontawesome-icon-thumbs-up:before { content: "\f087"; }
+.fontawesome-icon-thumbs-down:before { content: "\f088"; }
+.fontawesome-icon-star-half:before { content: "\f089"; }
+.fontawesome-icon-heart-empty:before { content: "\f08a"; }
+.fontawesome-icon-signout:before { content: "\f08b"; }
+.fontawesome-icon-linkedin-sign:before { content: "\f08c"; }
+.fontawesome-icon-pushpin:before { content: "\f08d"; }
+.fontawesome-icon-external-link:before { content: "\f08e"; }
+.fontawesome-icon-signin:before { content: "\f090"; }
+.fontawesome-icon-trophy:before { content: "\f091"; }
+.fontawesome-icon-github-sign:before { content: "\f092"; }
+.fontawesome-icon-upload-alt:before { content: "\f093"; }
+.fontawesome-icon-lemon:before { content: "\f094"; }
+.fontawesome-icon-phone:before { content: "\f095"; }
+.fontawesome-icon-check-empty:before { content: "\f096"; }
+.fontawesome-icon-bookmark-empty:before { content: "\f097"; }
+.fontawesome-icon-phone-sign:before { content: "\f098"; }
+.fontawesome-icon-twitter:before { content: "\f099"; }
+.fontawesome-icon-facebook:before { content: "\f09a"; }
+.fontawesome-icon-github:before { content: "\f09b"; }
+.fontawesome-icon-unlock:before { content: "\f09c"; }
+.fontawesome-icon-credit-card:before { content: "\f09d"; }
+.fontawesome-icon-rss:before { content: "\f09e"; }
+.fontawesome-icon-hdd:before { content: "\f0a0"; }
+.fontawesome-icon-bullhorn:before { content: "\f0a1"; }
+.fontawesome-icon-bell:before { content: "\f0a2"; }
+.fontawesome-icon-certificate:before { content: "\f0a3"; }
+.fontawesome-icon-hand-right:before { content: "\f0a4"; }
+.fontawesome-icon-hand-left:before { content: "\f0a5"; }
+.fontawesome-icon-hand-up:before { content: "\f0a6"; }
+.fontawesome-icon-hand-down:before { content: "\f0a7"; }
+.fontawesome-icon-circle-arrow-left:before { content: "\f0a8"; }
+.fontawesome-icon-circle-arrow-right:before { content: "\f0a9"; }
+.fontawesome-icon-circle-arrow-up:before { content: "\f0aa"; }
+.fontawesome-icon-circle-arrow-down:before { content: "\f0ab"; }
+.fontawesome-icon-globe:before { content: "\f0ac"; }
+.fontawesome-icon-wrench:before { content: "\f0ad"; }
+.fontawesome-icon-tasks:before { content: "\f0ae"; }
+.fontawesome-icon-filter:before { content: "\f0b0"; }
+.fontawesome-icon-briefcase:before { content: "\f0b1"; }
+.fontawesome-icon-fullscreen:before { content: "\f0b2"; }
+.fontawesome-icon-group:before { content: "\f0c0"; }
+.fontawesome-icon-link:before { content: "\f0c1"; }
+.fontawesome-icon-cloud:before { content: "\f0c2"; }
+.fontawesome-icon-beaker:before { content: "\f0c3"; }
+.fontawesome-icon-cut:before { content: "\f0c4"; }
+.fontawesome-icon-copy:before { content: "\f0c5"; }
+.fontawesome-icon-paper-clip:before { content: "\f0c6"; }
+.fontawesome-icon-save:before { content: "\f0c7"; }
+.fontawesome-icon-sign-blank:before { content: "\f0c8"; }
+.fontawesome-icon-reorder:before { content: "\f0c9"; }
+.fontawesome-icon-list-ul:before { content: "\f0ca"; }
+.fontawesome-icon-list-ol:before { content: "\f0cb"; }
+.fontawesome-icon-strikethrough:before { content: "\f0cc"; }
+.fontawesome-icon-underline:before { content: "\f0cd"; }
+.fontawesome-icon-table:before { content: "\f0ce"; }
+.fontawesome-icon-magic:before { content: "\f0d0"; }
+.fontawesome-icon-truck:before { content: "\f0d1"; }
+.fontawesome-icon-pinterest:before { content: "\f0d2"; }
+.fontawesome-icon-pinterest-sign:before { content: "\f0d3"; }
+.fontawesome-icon-google-plus-sign:before { content: "\f0d4"; }
+.fontawesome-icon-google-plus:before { content: "\f0d5"; }
+.fontawesome-icon-money:before { content: "\f0d6"; }
+.fontawesome-icon-caret-down:before { content: "\f0d7"; }
+.fontawesome-icon-caret-up:before { content: "\f0d8"; }
+.fontawesome-icon-caret-left:before { content: "\f0d9"; }
+.fontawesome-icon-caret-right:before { content: "\f0da"; }
+.fontawesome-icon-columns:before { content: "\f0db"; }
+.fontawesome-icon-sort:before { content: "\f0dc"; }
+.fontawesome-icon-sort-down:before { content: "\f0dd"; }
+.fontawesome-icon-sort-up:before { content: "\f0de"; }
+.fontawesome-icon-envelope-alt:before { content: "\f0e0"; }
+.fontawesome-icon-linkedin:before { content: "\f0e1"; }
+.fontawesome-icon-undo:before,
+.fontawesome-icon-rotate-left:before { content: "\f0e2"; }
+.fontawesome-icon-legal:before { content: "\f0e3"; }
+.fontawesome-icon-dashboard:before { content: "\f0e4"; }
+.fontawesome-icon-comment-alt:before { content: "\f0e5"; }
+.fontawesome-icon-comments-alt:before { content: "\f0e6"; }
+.fontawesome-icon-bolt:before { content: "\f0e7"; }
+.fontawesome-icon-sitemap:before { content: "\f0e8"; }
+.fontawesome-icon-umbrella:before { content: "\f0e9"; }
+.fontawesome-icon-paste:before { content: "\f0ea"; }
+.fontawesome-icon-lightbulb:before { content: "\f0eb"; }
+.fontawesome-icon-exchange:before { content: "\f0ec"; }
+.fontawesome-icon-cloud-download:before { content: "\f0ed"; }
+.fontawesome-icon-cloud-upload:before { content: "\f0ee"; }
+.fontawesome-icon-user-md:before { content: "\f0f0"; }
+.fontawesome-icon-stethoscope:before { content: "\f0f1"; }
+.fontawesome-icon-suitcase:before { content: "\f0f2"; }
+.fontawesome-icon-bell-alt:before { content: "\f0f3"; }
+.fontawesome-icon-coffee:before { content: "\f0f4"; }
+.fontawesome-icon-food:before { content: "\f0f5"; }
+.fontawesome-icon-file-alt:before { content: "\f0f6"; }
+.fontawesome-icon-building:before { content: "\f0f7"; }
+.fontawesome-icon-hospital:before { content: "\f0f8"; }
+.fontawesome-icon-ambulance:before { content: "\f0f9"; }
+.fontawesome-icon-medkit:before { content: "\f0fa"; }
+.fontawesome-icon-fighter-jet:before { content: "\f0fb"; }
+.fontawesome-icon-beer:before { content: "\f0fc"; }
+.fontawesome-icon-h-sign:before { content: "\f0fd"; }
+.fontawesome-icon-plus-sign-alt:before { content: "\f0fe"; }
+.fontawesome-icon-double-angle-left:before { content: "\f100"; }
+.fontawesome-icon-double-angle-right:before { content: "\f101"; }
+.fontawesome-icon-double-angle-up:before { content: "\f102"; }
+.fontawesome-icon-double-angle-down:before { content: "\f103"; }
+.fontawesome-icon-angle-left:before { content: "\f104"; }
+.fontawesome-icon-angle-right:before { content: "\f105"; }
+.fontawesome-icon-angle-up:before { content: "\f106"; }
+.fontawesome-icon-angle-down:before { content: "\f107"; }
+.fontawesome-icon-desktop:before { content: "\f108"; }
+.fontawesome-icon-laptop:before { content: "\f109"; }
+.fontawesome-icon-tablet:before { content: "\f10a"; }
+.fontawesome-icon-mobile-phone:before { content: "\f10b"; }
+.fontawesome-icon-circle-blank:before { content: "\f10c"; }
+.fontawesome-icon-quote-left:before { content: "\f10d"; }
+.fontawesome-icon-quote-right:before { content: "\f10e"; }
+.fontawesome-icon-spinner:before { content: "\f110"; }
+.fontawesome-icon-circle:before { content: "\f111"; }
+.fontawesome-icon-reply:before,
+.fontawesome-icon-mail-reply:before { content: "\f112"; }
+.fontawesome-icon-folder-close-alt:before { content: "\f114"; }
+.fontawesome-icon-folder-open-alt:before { content: "\f115"; }
+.fontawesome-icon-expand-alt:before { content: "\f116"; }
+.fontawesome-icon-collapse-alt:before { content: "\f117"; }
+.fontawesome-icon-smile:before { content: "\f118"; }
+.fontawesome-icon-frown:before { content: "\f119"; }
+.fontawesome-icon-meh:before { content: "\f11a"; }
+.fontawesome-icon-gamepad:before { content: "\f11b"; }
+.fontawesome-icon-keyboard:before { content: "\f11c"; }
+.fontawesome-icon-flag-alt:before { content: "\f11d"; }
+.fontawesome-icon-flag-checkered:before { content: "\f11e"; }
+.fontawesome-icon-terminal:before { content: "\f120"; }
+.fontawesome-icon-code:before { content: "\f121"; }
+.fontawesome-icon-reply-all:before { content: "\f122"; }
+.fontawesome-icon-mail-reply-all:before { content: "\f122"; }
+.fontawesome-icon-star-half-full:before,
+.fontawesome-icon-star-half-empty:before { content: "\f123"; }
+.fontawesome-icon-location-arrow:before { content: "\f124"; }
+.fontawesome-icon-crop:before { content: "\f125"; }
+.fontawesome-icon-code-fork:before { content: "\f126"; }
+.fontawesome-icon-unlink:before { content: "\f127"; }
+.fontawesome-icon-question:before { content: "\f128"; }
+.fontawesome-icon-info:before { content: "\f129"; }
+.fontawesome-icon-exclamation:before { content: "\f12a"; }
+.fontawesome-icon-superscript:before { content: "\f12b"; }
+.fontawesome-icon-subscript:before { content: "\f12c"; }
+.fontawesome-icon-eraser:before { content: "\f12d"; }
+.fontawesome-icon-puzzle-piece:before { content: "\f12e"; }
+.fontawesome-icon-microphone:before { content: "\f130"; }
+.fontawesome-icon-microphone-off:before { content: "\f131"; }
+.fontawesome-icon-shield:before { content: "\f132"; }
+.fontawesome-icon-calendar-empty:before { content: "\f133"; }
+.fontawesome-icon-fire-extinguisher:before { content: "\f134"; }
+.fontawesome-icon-rocket:before { content: "\f135"; }
+.fontawesome-icon-maxcdn:before { content: "\f136"; }
+.fontawesome-icon-chevron-sign-left:before { content: "\f137"; }
+.fontawesome-icon-chevron-sign-right:before { content: "\f138"; }
+.fontawesome-icon-chevron-sign-up:before { content: "\f139"; }
+.fontawesome-icon-chevron-sign-down:before { content: "\f13a"; }
+.fontawesome-icon-html5:before { content: "\f13b"; }
+.fontawesome-icon-css3:before { content: "\f13c"; }
+.fontawesome-icon-anchor:before { content: "\f13d"; }
+.fontawesome-icon-unlock-alt:before { content: "\f13e"; }
+.fontawesome-icon-bullseye:before { content: "\f140"; }
+.fontawesome-icon-ellipsis-horizontal:before { content: "\f141"; }
+.fontawesome-icon-ellipsis-vertical:before { content: "\f142"; }
+.fontawesome-icon-rss-sign:before { content: "\f143"; }
+.fontawesome-icon-play-sign:before { content: "\f144"; }
+.fontawesome-icon-ticket:before { content: "\f145"; }
+.fontawesome-icon-minus-sign-alt:before { content: "\f146"; }
+.fontawesome-icon-check-minus:before { content: "\f147"; }
+.fontawesome-icon-level-up:before { content: "\f148"; }
+.fontawesome-icon-level-down:before { content: "\f149"; }
+.fontawesome-icon-check-sign:before { content: "\f14a"; }
+.fontawesome-icon-edit-sign:before { content: "\f14b"; }
+.fontawesome-icon-external-link-sign:before { content: "\f14c"; }
+.fontawesome-icon-share-sign:before { content: "\f14d"; }
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on June 26, 2012 01:07:43 PM America/New_York */
+@font-face {
+    font-family: ModernPictogramsNormal;
+    src: url(modern-pictograms/modernpics-webfont.eot);
+    src: url(modern-pictograms/modernpics-webfont.eot?#iefix) format('embedded-opentype'),
+         url(modern-pictograms/modernpics-webfont.woff) format('woff'),
+         url(modern-pictograms/modernpics-webfont.ttf) format('truetype'),
+         url(modern-pictograms/modernpics-webfont.svg#ModernPictogramsNormal) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.modernpicrograms-icon-1:before { content: "A"; }
+.modernpicrograms-icon-2:before { content: "B"; }
+.modernpicrograms-icon-3:before { content: "C"; }
+.modernpicrograms-icon-4:before { content: "D"; }
+.modernpicrograms-icon-5:before { content: "E"; }
+.modernpicrograms-icon-6:before { content: "F"; }
+.modernpicrograms-icon-7:before { content: "G"; }
+.modernpicrograms-icon-8:before { content: "H"; }
+.modernpicrograms-icon-9:before { content: "I"; }
+.modernpicrograms-icon-10:before { content: "J"; }
+.modernpicrograms-icon-11:before { content: "K"; }
+.modernpicrograms-icon-12:before { content: "L"; }
+.modernpicrograms-icon-13:before { content: "M"; }
+.modernpicrograms-icon-14:before { content: "N"; }
+.modernpicrograms-icon-15:before { content: "O"; }
+.modernpicrograms-icon-16:before { content: "P"; }
+.modernpicrograms-icon-17:before { content: "Q"; }
+.modernpicrograms-icon-18:before { content: "R"; }
+.modernpicrograms-icon-19:before { content: "S"; }
+.modernpicrograms-icon-20:before { content: "T"; }
+.modernpicrograms-icon-21:before { content: "U"; }
+.modernpicrograms-icon-22:before { content: "V"; }
+.modernpicrograms-icon-23:before { content: "W"; }
+.modernpicrograms-icon-24:before { content: "X"; }
+.modernpicrograms-icon-25:before { content: "Y"; }
+.modernpicrograms-icon-26:before { content: "Z"; }
+.modernpicrograms-icon-27:before { content: "a"; }
+.modernpicrograms-icon-28:before { content: "b"; }
+.modernpicrograms-icon-29:before { content: "c"; }
+.modernpicrograms-icon-30:before { content: "d"; }
+.modernpicrograms-icon-31:before { content: "e"; }
+.modernpicrograms-icon-32:before { content: "f"; }
+.modernpicrograms-icon-33:before { content: "g"; }
+.modernpicrograms-icon-34:before { content: "h"; }
+.modernpicrograms-icon-35:before { content: "i"; }
+.modernpicrograms-icon-36:before { content: "j"; }
+.modernpicrograms-icon-37:before { content: "k"; }
+.modernpicrograms-icon-38:before { content: "l"; }
+.modernpicrograms-icon-39:before { content: "m"; }
+.modernpicrograms-icon-40:before { content: "n"; }
+.modernpicrograms-icon-41:before { content: "o"; }
+.modernpicrograms-icon-42:before { content: "p"; }
+.modernpicrograms-icon-43:before { content: "q"; }
+.modernpicrograms-icon-44:before { content: "r"; }
+.modernpicrograms-icon-45:before { content: "s"; }
+.modernpicrograms-icon-46:before { content: "t"; }
+.modernpicrograms-icon-47:before { content: "u"; }
+.modernpicrograms-icon-48:before { content: "v"; }
+.modernpicrograms-icon-49:before { content: "w"; }
+.modernpicrograms-icon-50:before { content: "x"; }
+.modernpicrograms-icon-51:before { content: "y"; }
+.modernpicrograms-icon-52:before { content: "z"; }
+.modernpicrograms-icon-53:before { content: "1"; }
+.modernpicrograms-icon-54:before { content: "2"; }
+.modernpicrograms-icon-55:before { content: "3"; }
+.modernpicrograms-icon-56:before { content: "4"; }
+.modernpicrograms-icon-57:before { content: "5"; }
+.modernpicrograms-icon-58:before { content: "6"; }
+.modernpicrograms-icon-59:before { content: "7"; }
+.modernpicrograms-icon-60:before { content: "8"; }
+.modernpicrograms-icon-61:before { content: "9"; }
+.modernpicrograms-icon-62:before { content: "0"; }
+.modernpicrograms-icon-63:before { content: "`"; }
+.modernpicrograms-icon-64:before { content: "!"; }
+.modernpicrograms-icon-65:before { content: "@"; }
+.modernpicrograms-icon-66:before { content: "#"; }
+.modernpicrograms-icon-67:before { content: "$"; }
+.modernpicrograms-icon-68:before { content: "%"; }
+.modernpicrograms-icon-69:before { content: "^"; }
+.modernpicrograms-icon-70:before { content: ","; }
+.modernpicrograms-icon-71:before { content: "*"; }
+.modernpicrograms-icon-72:before { content: "("; }
+.modernpicrograms-icon-73:before { content: ")"; }
+.modernpicrograms-icon-74:before { content: "-"; }
+.modernpicrograms-icon-75:before { content: "_"; }
+.modernpicrograms-icon-76:before { content: "+"; }
+.modernpicrograms-icon-77:before { content: "="; }
+.modernpicrograms-icon-78:before { content: "["; }
+.modernpicrograms-icon-79:before { content: "{"; }
+.modernpicrograms-icon-80:before { content: "]"; }
+.modernpicrograms-icon-81:before { content: "}"; }
+.modernpicrograms-icon-82:before { content: "'"; }
+.modernpicrograms-icon-83:before { content: "\""; }
+.modernpicrograms-icon-84:before { content: ":"; }
+.modernpicrograms-icon-85:before { content: ";"; }
+.modernpicrograms-icon-86:before { content: "<"; }
+.modernpicrograms-icon-87:before { content: ">"; }
+.modernpicrograms-icon-88:before { content: "?"; }
+.modernpicrograms-icon-89:before { content: "/"; }
+
+/* Modern Pictograms for menu */
+.menu-item.modernpicrograms-icon-1 > a:before { content: "A"; }
+.menu-item.modernpicrograms-icon-2 > a:before { content: "B"; }
+.menu-item.modernpicrograms-icon-3 > a:before { content: "C"; }
+.menu-item.modernpicrograms-icon-4 > a:before { content: "D"; }
+.menu-item.modernpicrograms-icon-5 > a:before { content: "E"; }
+.menu-item.modernpicrograms-icon-6 > a:before { content: "F"; }
+.menu-item.modernpicrograms-icon-7 > a:before { content: "G"; }
+.menu-item.modernpicrograms-icon-8 > a:before { content: "H"; }
+.menu-item.modernpicrograms-icon-9 > a:before { content: "I"; }
+.menu-item.modernpicrograms-icon-10 > a:before { content: "J"; }
+.menu-item.modernpicrograms-icon-11 > a:before { content: "K"; }
+.menu-item.modernpicrograms-icon-12 > a:before { content: "L"; }
+.menu-item.modernpicrograms-icon-13 > a:before { content: "M"; }
+.menu-item.modernpicrograms-icon-14 > a:before { content: "N"; }
+.menu-item.modernpicrograms-icon-15 > a:before { content: "O"; }
+.menu-item.modernpicrograms-icon-16 > a:before { content: "P"; }
+.menu-item.modernpicrograms-icon-17 > a:before { content: "Q"; }
+.menu-item.modernpicrograms-icon-18 > a:before { content: "R"; }
+.menu-item.modernpicrograms-icon-19 > a:before { content: "S"; }
+.menu-item.modernpicrograms-icon-20 > a:before { content: "T"; }
+.menu-item.modernpicrograms-icon-21 > a:before { content: "U"; }
+.menu-item.modernpicrograms-icon-22 > a:before { content: "V"; }
+.menu-item.modernpicrograms-icon-23 > a:before { content: "W"; }
+.menu-item.modernpicrograms-icon-24 > a:before { content: "X"; }
+.menu-item.modernpicrograms-icon-25 > a:before { content: "Y"; }
+.menu-item.modernpicrograms-icon-26 > a:before { content: "Z"; }
+.menu-item.modernpicrograms-icon-27 > a:before { content: "a"; }
+.menu-item.modernpicrograms-icon-28 > a:before { content: "b"; }
+.menu-item.modernpicrograms-icon-29 > a:before { content: "c"; }
+.menu-item.modernpicrograms-icon-30 > a:before { content: "d"; }
+.menu-item.modernpicrograms-icon-31 > a:before { content: "e"; }
+.menu-item.modernpicrograms-icon-32 > a:before { content: "f"; }
+.menu-item.modernpicrograms-icon-33 > a:before { content: "g"; }
+.menu-item.modernpicrograms-icon-34 > a:before { content: "h"; }
+.menu-item.modernpicrograms-icon-35 > a:before { content: "i"; }
+.menu-item.modernpicrograms-icon-36 > a:before { content: "j"; }
+.menu-item.modernpicrograms-icon-37 > a:before { content: "k"; }
+.menu-item.modernpicrograms-icon-38 > a:before { content: "l"; }
+.menu-item.modernpicrograms-icon-39 > a:before { content: "m"; }
+.menu-item.modernpicrograms-icon-40 > a:before { content: "n"; }
+.menu-item.modernpicrograms-icon-41 > a:before { content: "o"; }
+.menu-item.modernpicrograms-icon-42 > a:before { content: "p"; }
+.menu-item.modernpicrograms-icon-43 > a:before { content: "q"; }
+.menu-item.modernpicrograms-icon-44 > a:before { content: "r"; }
+.menu-item.modernpicrograms-icon-45 > a:before { content: "s"; }
+.menu-item.modernpicrograms-icon-46 > a:before { content: "t"; }
+.menu-item.modernpicrograms-icon-47 > a:before { content: "u"; }
+.menu-item.modernpicrograms-icon-48 > a:before { content: "v"; }
+.menu-item.modernpicrograms-icon-49 > a:before { content: "w"; }
+.menu-item.modernpicrograms-icon-50 > a:before { content: "x"; }
+.menu-item.modernpicrograms-icon-51 > a:before { content: "y"; }
+.menu-item.modernpicrograms-icon-52 > a:before { content: "z"; }
+.menu-item.modernpicrograms-icon-53 > a:before { content: "1"; }
+.menu-item.modernpicrograms-icon-54 > a:before { content: "2"; }
+.menu-item.modernpicrograms-icon-55 > a:before { content: "3"; }
+.menu-item.modernpicrograms-icon-56 > a:before { content: "4"; }
+.menu-item.modernpicrograms-icon-57 > a:before { content: "5"; }
+.menu-item.modernpicrograms-icon-58 > a:before { content: "6"; }
+.menu-item.modernpicrograms-icon-59 > a:before { content: "7"; }
+.menu-item.modernpicrograms-icon-60 > a:before { content: "8"; }
+.menu-item.modernpicrograms-icon-61 > a:before { content: "9"; }
+.menu-item.modernpicrograms-icon-62 > a:before { content: "0"; }
+.menu-item.modernpicrograms-icon-63 > a:before { content: "`"; }
+.menu-item.modernpicrograms-icon-64 > a:before { content: "!"; }
+.menu-item.modernpicrograms-icon-65 > a:before { content: "@"; }
+.menu-item.modernpicrograms-icon-66 > a:before { content: "#"; }
+.menu-item.modernpicrograms-icon-67 > a:before { content: "$"; }
+.menu-item.modernpicrograms-icon-68 > a:before { content: "%"; }
+.menu-item.modernpicrograms-icon-69 > a:before { content: "^"; }
+.menu-item.modernpicrograms-icon-70 > a:before { content: ","; }
+.menu-item.modernpicrograms-icon-71 > a:before { content: "*"; }
+.menu-item.modernpicrograms-icon-72 > a:before { content: "("; }
+.menu-item.modernpicrograms-icon-73 > a:before { content: ")"; }
+.menu-item.modernpicrograms-icon-74 > a:before { content: "-"; }
+.menu-item.modernpicrograms-icon-75 > a:before { content: "_"; }
+.menu-item.modernpicrograms-icon-76 > a:before { content: "+"; }
+.menu-item.modernpicrograms-icon-77 > a:before { content: "="; }
+.menu-item.modernpicrograms-icon-78 > a:before { content: "["; }
+.menu-item.modernpicrograms-icon-79 > a:before { content: "{"; }
+.menu-item.modernpicrograms-icon-80 > a:before { content: "]"; }
+.menu-item.modernpicrograms-icon-81 > a:before { content: "}"; }
+.menu-item.modernpicrograms-icon-82 > a:before { content: "'"; }
+.menu-item.modernpicrograms-icon-83 > a:before { content: "\""; }
+.menu-item.modernpicrograms-icon-84 > a:before { content: ":"; }
+.menu-item.modernpicrograms-icon-85 > a:before { content: ";"; }
+.menu-item.modernpicrograms-icon-86 > a:before { content: "<"; }
+.menu-item.modernpicrograms-icon-87 > a:before { content: ">"; }
+.menu-item.modernpicrograms-icon-88 > a:before { content: "?"; }
+.menu-item.modernpicrograms-icon-89 > a:before { content: "/"; }

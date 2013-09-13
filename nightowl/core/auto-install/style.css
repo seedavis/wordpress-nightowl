@@ -1,0 +1,7 @@
+.au-box.updated { position: relative; border: 0; padding: 10px 0 10px; background-color: #f6f6f6; padding: 10px 30px 15px; }
+.au-box.updated h2 { font-size: 20px; line-height: 1.625; color: #333; text-shadow: none; padding: 0; margin: 5px 0 5px 0; }
+.au-box.updated .au-desc { margin: 0 0 1em 0; padding: 0; line-height: 1.625; color: #777; font-size: 14px; max-width: 960px; }
+.au-box.updated .au-links { color: #aaa; font-size: 14px; margin: 1em 0; padding: 0; }
+.au-box.updated .au-links .au-install-button { margin-right: 5px; }
+.au-box.updated .au-links .au-skip-button { margin-left: 5px; }
+.au-box.updated .au-notice { color: #777; font-size: 13px; margin: 1em 0; padding: 0; font-style: italic; }
